@@ -6,6 +6,7 @@ Created on 2017年9月24日
 列表有种stringBuffer的意味
 @author: lengxiaoqi
 '''
+from _ast import operator
 
 li=["a","b","c",1,2,3,1];
 li[0]=0;#根据下标索引，修改列表中的值
@@ -29,9 +30,13 @@ print(names)
 print(names.count('p'));#计算列表中元素出现的次数
 names.extend(list("TOM"));#在列表的后面追加新的列表（只能是列表），两个列表相加
 print(names)
-print(names.index('w'));#当元素不存在的时候报错，ValueError: 'w' is not in list
-
-
-
+print(names.index('t'));#当元素不存在的时候报错，ValueError: 'w' is not in list
+names.insert(2, "2");#在下标1的后面添加一个新的元素
+print(names);
+names.reverse();#翻转列表
+print(names);
+names.sort();#按照ASCII值顺序排列
+print(names);
+names.clear();
 
 
