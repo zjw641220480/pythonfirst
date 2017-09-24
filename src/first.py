@@ -1,3 +1,4 @@
+#!/usr/bin/python3
 #coding=utf-8    #必不可少的，不然容易报错
 """
 Created on 2017年9月21日
@@ -7,6 +8,5 @@ python的不可变数据类型，整型int，字符串str，元组()
 
 @author: lengxiaoqi
 """
-import platform;
-print "hello python"
+print ("hello python")
 
