@@ -15,6 +15,19 @@ dangan={"xingming":"zhangsan",'age':11,'sex':'nan'};
 print(dangan['xingming']);#使用字典中某个键来取得字典中的值；
 dangan['address']='henan';#在字典后面追加一项；
 print(dangan);
+dangan['xingming']='lisi';#直接修改字典中某一项的值
+print(dangan);
+del dangan['age'];#删除字典中的某一项
+print(dangan);
+dangan.pop('sex');#使用字典自带的函数删除字典中的某一项
+print(dangan.get('xingmin', '默认值'));#使用字典自带的函数获取字典中的某一项的值
+
+
+
+
+
+
+
 
 
 
