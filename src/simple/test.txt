@@ -1,0 +1,5 @@
+%%writefile test.txt
+this is a test file.
+hello world!
+python is good!
+today is a good day.

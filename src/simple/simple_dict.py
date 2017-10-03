@@ -22,8 +22,16 @@ print(dangan);
 dangan.pop('sex');#使用字典自带的函数删除字典中的某一项
 print(dangan.get('xingmin', '默认值'));#使用字典自带的函数获取字典中的某一项的值
 
+#迭代取出字典中的值得集中方式
+for key in dangan:
+    print(key);
 
+for value in dangan.values():
+    print(value);
 
+for key,value in dangan.items():
+    print(key,'\t',value);
+    
 
 
 
